@@ -125,3 +125,32 @@ body {
 .element .delete-btn:hover {
     opacity: 0.7;
 }
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .sidebar {
+        width: 100%;
+        border-right: none;
+        border-bottom: 2px solid #ddd;
+    }
+
+    .form-area {
+        padding: 10px;
+    }
+
+    #form-container {
+        min-height: 300px;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .element textarea {
+        height: 100px;
+    }
+}
